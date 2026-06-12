@@ -1,1 +1,63 @@
-# MY-WEBSITE
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            width:300px;
+            padding:20px;
+            border:1px solid skyblue;
+            border-radius:5px;
+            display:flex;
+            flex-direction:column;
+        }
+
+        input{
+            height:35px;
+            margin:5px 0;
+            padding:7px;
+        }
+
+        button{
+            height:35px;
+            margin-top:10px;
+            background:skyblue;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#333;
+            color:skyblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Login</h2>
+
+    <input type="email" placeholder="Enter Email">
+
+    <input type="password" placeholder="Enter Password">
+
+    <button>Login</button>
+</div>
+
+</body>
+</html>
